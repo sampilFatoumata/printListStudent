@@ -25,10 +25,10 @@ public class PrintStudentList {
         Student s3=new Student();
         s3.setId(3);
         s3.setName("Poule");
-        Student[]list=new Student[3];
+        Student[]list=new Student[2];
         list[0]=s1;
         list[1]=s2;
-        list[2]=s3;
+       // list[2]=s3;
         for(int i=0;i<list.length;i++){
             System.out.println(list[i].getId()+" "+list[i].getName());
         }
